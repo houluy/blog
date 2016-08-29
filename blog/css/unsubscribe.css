@@ -1,0 +1,10 @@
+#nav-toggle-un { position: absolute; right: 15px; top: 0; }
+#nav-toggle-un { cursor: pointer; padding: 10px 35px 16px 0px; }
+#nav-toggle-un span, #nav-toggle-un-un span:before, #nav-toggle-un span:after { cursor: pointer; border-radius: 1px; -moz-border-radius: 1px; -webkit-border-radius: 1px; -o-border-radius: 1px; height: 5px; width: 35px; background: #353535; position: absolute; display: block; content: ''; }
+#nav-toggle-un span:before { top: -10px; }
+#nav-toggle-un span:after { bottom: -10px; }
+#nav-toggle-un span, #nav-toggle-un span:before, #nav-toggle-un span:after { transition: all 500ms ease-in-out; -webkit-transition: all 500ms ease-in-out; -moz-transition: all 500ms ease-in-out; -o-transition: all 500ms ease-in-out; }
+#nav-toggle-un.active span { background-color: transparent; }
+#nav-toggle-un.active span:before, #nav-toggle-un.active span:after { top: 0; }
+#nav-toggle-un.active span:before { transform: rotate(45deg); -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); }
+#nav-toggle-un.active span:after { transform: translateY(-10px) rotate(-45deg); -webkit-transform: translateY(-10px) rotate(-45deg); -ms-transform: translateY(-10px) rotate(-45deg); top: 10px; }
